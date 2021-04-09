@@ -1,28 +1,14 @@
-# Digi-Journal
+# AlgoVisualizer
 
-## Resource
+## Overview
 
-**Log**
+Pathfinding visualization tool created with c++ and OpenGL, includes Dijkstras and Bidirectional Search.
 
-Attributes:
+## Installation
 
-* heading (string)
-* rating (integer)
-* entry (string)
-* date (string)
-* place (string)
-
-## Schema
-
-```sql
-CREATE TABLE logs (
-id INTEGER PRIMARY KEY,
-heading TEXT,
-date TEXT,
-entry TEXT,
-rating INTEGER,
-place TEXT);
-```
+-Linux
+Download 
+  
 
 ## REST Endpoints
 
