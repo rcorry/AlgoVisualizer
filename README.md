@@ -9,4 +9,4 @@ Pathfinding visualization tool created with c++ and OpenGL, includes Dijkstras a
 ### Linux
 Download and extract the source files, run "make" command from within the AlgoVisualizer-main directory. 
   
-
+![caption](./vid/demo.gif / GIF)
