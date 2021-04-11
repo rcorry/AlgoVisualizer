@@ -5,7 +5,11 @@
 #include <cstring>
 #include <iostream>
 #include <thread>
+#if WIN32
+#include "glut.h"
+#else
 #include <GL/freeglut.h>
+#endif
 #include "grid.h"
 #include "unistd.h"
 
