@@ -8,5 +8,7 @@ Pathfinding visualization tool created with c++ and OpenGL, includes Dijkstras a
 
 ### Linux
 Download and extract the source files, run "make" command from within the AlgoVisualizer-main directory. 
+### Windows
+Download source files and compile with your choice of compiler.
   
 ![demo](https://github.com/rcorry/AlgoVisualizer/blob/main/vid/demo.gif)
