@@ -198,6 +198,7 @@ void Grid::SetSize1(){
     }
 }
 void Grid::SetWeight(int w){
+    /*
     for(int x=0; x<gW; x++){
         for(int y=0; y<gH-gMargin; y++){
             if(mGrid[x][y].isWall){
@@ -205,6 +206,7 @@ void Grid::SetWeight(int w){
             }
         }
     }
+    */
     WWeight = w;
 }
 
@@ -235,6 +237,13 @@ void Grid::DrawWall(int x, int y){
     if(mlastx!=x || mlasty!=y){
         mGrid[x][y].SetWall(WWeight);
     }
+    mlastx = x;
+    mlasty = y;
+}
+
+//for regular mouse function
+void Grid::DrawWall2(int x, int y){ 
+    mGrid[x][y].SetWall(WWeight);
     mlastx = x;
     mlasty = y;
 }

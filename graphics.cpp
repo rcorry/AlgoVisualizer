@@ -207,7 +207,7 @@ void mouse(int mouse_button, int state, int x, int y)
 		}
 
 		if(y < gH-gMargin){
-			gGrid.DrawWall(x, y);
+			gGrid.DrawWall2(x, y);
 		} else{
 			if(gGrid.mButtons[0].CheckPushed(x,y)){
 				gGrid.Reset();
@@ -301,6 +301,7 @@ void save_menu(int id){
 	save_to_file(filename);
 }
 void load_menu(int id){
+	gGrid.ClearAll();
 	std::string filename = "./saves/save" + std::to_string(id) + ".txt";
 	load_from_file(filename);
 

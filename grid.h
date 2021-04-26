@@ -64,6 +64,7 @@ public:
     Grid(int w, int h);
     void DrawGrid();
     void DrawWall(int row, int col);
+    void DrawWall2(int row, int col);
     void CalcDist();
     void ShowShortestPath();
     void ShowBiShortestPath(std::vector<std::vector<std::vector<int>>> StartPrev,std::vector<std::vector<std::vector<int>>> TargetPrev, int x, int y);
